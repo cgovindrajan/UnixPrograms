@@ -1,13 +1,4 @@
 #!/bin/ksh
-#################################################################################
-# NAME                    : edw_script_bteq_wrapper.ksh                         #
-# PURPOSE                 : Used for Bteq Job execution                         #
-# AUTHOR                  : Neha Singh                                    			#
-# DATE                    : 10/09/2012                                          #
-# DESCRIPTION             : Wrapper script to call the table specific ctl's and # 
-#                         : load the target tables                              #
-# PARAMETERS              : WF_TIER and CTL_NM                                  #
-#################################################################################
 export PATH=$PATH:`dirname $0`
 echo $PATH
 export BIN_DIR=`dirname $0`
